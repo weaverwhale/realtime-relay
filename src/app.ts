@@ -1,5 +1,5 @@
-import { RealtimeRelay } from './realtimeRelay';
-import { logger } from './logger';
+import { RealtimeRelay } from './realtimeRelay.js';
+import { logger } from './logger.js';
 
 logger.info('Starting Realtime Relay');
 const app = new RealtimeRelay();

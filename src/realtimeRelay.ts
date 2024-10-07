@@ -1,7 +1,7 @@
-import { getSecret } from './secrets';
+import { getSecret } from './secrets.js';
 import { RealtimeClient } from '@openai/realtime-api-beta';
 import { WebSocketServer } from 'ws';
-import { logger } from './logger';
+import { logger } from './logger.js';
 
 export class RealtimeRelay {
   private apiKey: string;
